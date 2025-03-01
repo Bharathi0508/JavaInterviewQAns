@@ -9,6 +9,8 @@ public class AmstrongNumber {
 	 example : 153 = (1*1*1)+(5*5*5) +(3*3*3)= 153
 	*/
 	
+	
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

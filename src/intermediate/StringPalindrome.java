@@ -10,22 +10,20 @@ public class StringPalindrome {
 
 	public static void main(String[] args) {
 		
+		//get the word from user
 		sc = new Scanner(System.in);
-		 
 		System.out.println("Enter a word  to check whether it is a palindrome");
-//get the word from user
-		
 		String word = sc.next();
 		
 // initialize non-static methods and variables
 		
 		StringPalindrome sp = new StringPalindrome(); 
-		
-		if(sp.isPalindrome(word)) {
-			
+		if(sp.isPalindrome(word)) 
+		{
 			System.out.println("the given word " + word +" is a palindrome" );
 		}
-		else {
+		else
+		{
 			System.out.println("the given word " + word +" is not a palindrome");
 		}
 	}
